@@ -1,5 +1,6 @@
 LICENSE
 README.md
+pyproject.toml
 setup.py
 pLDA/pLDA.egg-info/PKG-INFO
 pLDA/pLDA.egg-info/SOURCES.txt

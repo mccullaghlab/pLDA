@@ -4,10 +4,10 @@ Version: 0.0.1
 Summary: Linear Discriminant Analysis on Particle Positions
 Home-page: https://github.com/mccullaghlab/pLDA
 Author: Martin McCullagh
-Author-email: martin.mccullagh@okstate.edu
+Author-email: Martin McCullagh <martin.mccullagh@okstate.edu>
 License: MIT
+Project-URL: Homepage, https://github.com/mccullaghlab/pLDA
 Project-URL: Bug Tracker, https://github.com/mccullaghlab/pLDA/issues
-Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -86,7 +86,5 @@ Uniform covariance specific attributes
 Kronecker covariance specific attributes
 
 	- precision	   	- (n_atoms, n_atoms) float array of global precision (inverse covariance)
-
-
 
 
