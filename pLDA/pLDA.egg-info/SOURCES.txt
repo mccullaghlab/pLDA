@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pLDA/pLDA.egg-info/PKG-INFO
+pLDA/pLDA.egg-info/SOURCES.txt
+pLDA/pLDA.egg-info/dependency_links.txt
+pLDA/pLDA.egg-info/requires.txt
+pLDA/pLDA.egg-info/top_level.txt
