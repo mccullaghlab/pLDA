@@ -30,7 +30,7 @@ This package is designed to mimic the usage of the sklearn package.  You first i
 
 ### Initialize:
 
-`from pLDA import pLDA`
+`from posLDA import pLDA`
 
 `plda = pLDA.pLDA(training_set_positions, cluster_ids)`
 
