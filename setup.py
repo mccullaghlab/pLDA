@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='pLDA',
+    name='posLDA',
     version='0.0.1',
     author='Martin McCullagh',
     author_email='martin.mccullagh@okstate.edu',
@@ -21,7 +21,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "pLDA"},
+    package_dir={"": "posLDA"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
     license='MIT',
