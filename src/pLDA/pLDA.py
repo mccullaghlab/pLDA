@@ -39,6 +39,10 @@ class pLDA:
         cluster_ids               - (n_frames) integer numpy array of initial cluster assignments.
         """
 
+        # store some meta data
+        self.n_training_frames = traj_data.shape[0]
+        self.n_atoms = traj_data.shape[1]
+        self.n_clusters = np.unique(cluster_ids,return_counts=True)[1].size
         # pass trajectory data to device
         traj_tensor = torch.tensor(traj_data,dtype=self.dtype,device=self.device)
         # make sure trajectory is centered

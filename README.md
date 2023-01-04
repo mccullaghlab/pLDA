@@ -42,10 +42,9 @@ This package is designed to mimic the usage of the sklearn package.  You first i
 During initialization, the following options are availble:
 
 	- rot_type                - string defining the type of rotational alignment to use.  Options are 'kronecker' and 'uniform'.  Defualt is 'uniform'.
-        - kabsch_thresh           - float dictating convergence criteria for each alignment step.  Default value is 1e-1.
+	- kabsch_thresh           - float dictating convergence criteria for each alignment step.  Default value is 1e-1.
 	- dtype                   - Torch data type to be used.  Default is torch.float32.
 	- device                  - Torch device to be used.  Default is torch.device('cuda:0') device.
-	- verbose                 - boolean dictating whether to print various things at every step. Defualt is False.
 
 ### Fit:
 
@@ -62,8 +61,10 @@ After being properly fit, a pLDA object will have the following attributes:
 
 	- n_clusters		- integer of how many clusters were in tranining cluster_id array
 	- n_atoms           	- integer of how many atoms were in the training data
-	- n_frames          	- integer of how many frames were in the training data
-	- lds                   - (n_atoms x 3, n_clusters-1) float array of LD vectors
+	- n_training_frames    	- integer of how many frames were in the training data
+	- lda 			- sklearn LDA object fit using training data
+	- lda_vecs              - (n_atoms x 3, n_clusters-1) float array of LD vectors
+	- lda_projection        - (n_training_frames, n_clusters-1) float array of LD projections for training data
 	- center	      	- (n_atoms, 3) float array of global center/average
 
 Uniform covariance specific attributes
