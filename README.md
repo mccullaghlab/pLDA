@@ -1,4 +1,4 @@
-# pLDA
+# posLDA
 
 ## Overview
 
