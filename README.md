@@ -18,7 +18,7 @@ This package is dependent on the following packages:
 
 After the dependencies have been installed, the package can be installed from pip
 
-`pip install pLDA`
+`pip install posLDA`
 
 or by downloading from github and then running
 

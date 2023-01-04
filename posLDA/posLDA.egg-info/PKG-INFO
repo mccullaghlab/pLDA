@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: posLDA
-Version: 0.0.1
+Version: 0.0.2
 Summary: Linear Discriminant Analysis on Particle Positions
 Home-page: https://github.com/mccullaghlab/pLDA
 Author: Martin McCullagh
@@ -35,7 +35,7 @@ This package is dependent on the following packages:
 
 After the dependencies have been installed, the package can be installed from pip
 
-`pip install pLDA`
+`pip install posLDA`
 
 or by downloading from github and then running
 
